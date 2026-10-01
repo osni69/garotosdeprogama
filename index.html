@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Briefing inteligente da Garotos de Programa para transformar a história da sua empresa em uma landing page que converte.">
+  <meta name="theme-color" content="#09090b">
+  <title>Briefing de Landing Page | Garotos de Programa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#briefing">Pular para o briefing</a>
+  <div class="page-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Garotos de Programa, início">
+      <span class="brand-mark"><img src="/assets/logo.png" alt="" /></span>
+      <span class="brand-copy"><strong>GAROTOS <em>DE</em><br>PROGRAMA</strong><small>briefing de landing page</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#processo">Como funciona</a>
+      <a href="#briefing">Briefing</a>
+      <a class="nav-cta" href="#briefing">Começar agora</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> antes do primeiro layout</p>
+          <h1>Se o cliente<br>não entende,<br><span>ele não chama.</span></h1>
+          <p class="hero-lede">Você conhece o seu negócio. A gente ajuda a colocar isso em uma página que qualquer cliente entende — e sabe qual é o próximo passo.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#briefing" id="heroCta">Contar sobre meu negócio</a>
+            <div class="hero-note"><span>5 minutos bem investidos<br><small>você revisa antes de abrir a conversa</small></span></div>
+          </div>
+        </div>
+        <div class="hero-art reveal reveal-delay" aria-label="Ilustração da logo Garotos de Programa">
+          <div class="art-ring art-ring-one"></div>
+          <div class="art-ring art-ring-two"></div>
+          <div class="art-card">
+            <span class="art-tag">01 / briefing</span>
+            <img src="/assets/logo.png" alt="Logo Garotos de Programa com pinguim do Linux" />
+            <div class="art-caption"><span>briefing sem enrolação</span><b>site que<br>vende por você.</b></div>
+          </div>
+          <div class="floating-chip chip-top">direção clara</div>
+          <div class="floating-chip chip-bottom"><span class="chip-line"></span>pensado para sua meta</div>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true"><span class="scroll-line"></span> desça e dê o primeiro briefing</div>
+    </section>
+
+    <section class="process-strip" id="processo" aria-label="Como funciona">
+      <div class="process-inner">
+        <p class="section-kicker">do seu negócio ao site</p>
+        <div class="process-list">
+          <div class="process-item active"><span>01</span><div><b>Você abre o jogo</b><small>explica o que vende</small></div></div>
+          <div class="process-line"></div>
+          <div class="process-item"><span>02</span><div><b>A gente encontra o foco</b><small>separa o que importa</small></div></div>
+          <div class="process-line"></div>
+          <div class="process-item"><span>03</span><div><b>Seu site entra em cena</b><small>layout com propósito</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="briefing-section section-pad" id="briefing">
+      <div class="section-intro reveal">
+        <div><p class="eyebrow"><span></span> agora vamos dar forma</p><h2>O que o seu cliente<br>precisa <span>entender?</span></h2></div>
+        <p>Não precisa escrever bonito. Conte do seu jeito: o que você oferece, quem compra e qual ação a página precisa provocar.</p>
+      </div>
+
+      <div class="briefing-shell reveal reveal-delay">
+        <div class="form-topline">
+          <div class="form-id"><span class="red-index">BRF</span><span>/ landing page</span></div>
+          <div class="required-note"><i>*</i> campos obrigatórios</div>
+        </div>
+        <div class="progress-area">
+          <div class="progress-meta"><span id="stepLabel">Etapa 01 de 05</span><strong id="progressPercent">20%</strong></div>
+          <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+          <div class="step-dots" aria-hidden="true"><span class="current"></span><span></span><span></span><span></span><span></span></div>
+        </div>
+
+        <form id="briefingForm" novalidate>
+          <div class="trap-field" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+          <fieldset class="form-step active" data-step="1">
+            <legend><span class="legend-number">01</span> O essencial sobre o negócio</legend>
+            <p class="step-description">Antes de pensar em cor e botão, precisamos saber o que existe por trás da marca.</p>
+            <div class="field-grid two-col">
+              <div class="field"><label for="companyName">Nome da empresa <i>*</i></label><input id="companyName" name="Nome da empresa" type="text" placeholder="O nome que vai aparecer no site" required><span class="field-error" aria-live="polite"></span></div>
+              <div class="field"><label for="segment">Segmento de atuação <i>*</i></label><input id="segment" name="Segmento de atuação" type="text" placeholder="Ex.: arquitetura, estética, tecnologia" required><span class="field-error" aria-live="polite"></span></div>
+              <div class="field"><label for="city">Cidade / região de atendimento</label><input id="city" name="Cidade / região" type="text" placeholder="Onde sua empresa atua?"><span class="field-error" aria-live="polite"></span></div>
+              <div class="field"><label for="businessModel">Como o negócio funciona hoje? <i>*</i></label><select id="businessModel" name="Modelo de negócio" required><option value="">Selecione uma opção</option><option>Atendimento presencial</option><option>Atendimento online</option><option>Atendimento híbrido</option><option>Loja física / e-commerce</option><option>Outro modelo</option></select><span class="field-error" aria-live="polite"></span></div>
+              <div class="field full"><label for="businessDescription">Em uma frase, o que sua empresa faz? <i>*</i></label><textarea id="businessDescription" name="O que a empresa faz" rows="3" placeholder="Complete: ajudamos [quem] a [conquistar o quê]..." required></textarea><span class="field-error" aria-live="polite"></span></div>
+              <div class="field full"><label for="mainGoal">Qual é o principal objetivo da landing page? <i>*</i></label><select id="mainGoal" name="Objetivo principal" required><option value="">Escolha o objetivo mais importante</option><option>Gerar mais pedidos de orçamento</option><option>Vender um produto ou serviço</option><option>Agendar uma conversa / consulta</option><option>Captar leads e contatos</option><option>Apresentar a empresa e fortalecer a marca</option><option>Divulgar um evento, curso ou lançamento</option><option>Ainda não tenho certeza</option></select><span class="field-error" aria-live="polite"></span></div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-step" data-step="2">
+            <legend><span class="legend-number">02</span> Público, oferta e posicionamento</legend>
+            <p class="step-description">Se todo mundo é seu cliente, ninguém se sente chamado. Vamos descobrir quem precisa prestar atenção na sua página.</p>
+            <div class="field-grid two-col">
+              <div class="field full"><label for="audience">Quem é o cliente ideal? <i>*</i></label><textarea id="audience" name="Cliente ideal" rows="4" placeholder="Quem compra, em que momento procura você e o que está tentando resolver?" required></textarea><span class="field-error" aria-live="polite"></span></div>
+              <div class="field full"><label for="offer">O que você quer oferecer na página? <i>*</i></label><textarea id="offer" name="Oferta principal" rows="4" placeholder="Qual produto, serviço ou pacote deve receber o clique principal?" required></textarea><span class="field-error" aria-live="polite"></span></div>
+              <div class="field"><label for="priceRange">Faixa de preço / ticket médio</label><input id="priceRange" name="Faixa de preço" type="text" placeholder="Ex.: a partir de R$ 500"><span class="field-error" aria-live="polite"></span></div>
+              <div class="field"><label for="conversionAction">Qual ação você quer que a pessoa faça? <i>*</i></label><select id="conversionAction" name="Ação de conversão" required><option value="">Selecione uma ação</option><option>Chamar no WhatsApp</option><option>Preencher um formulário</option><option>Comprar agora</option><option>Agendar horário</option><option>Visitar a loja</option><option>Baixar um material</option></select><span class="field-error" aria-live="polite"></span></div>
+              <div class="field full"><label for="differentials">O que torna sua empresa diferente? <i>*</i></label><textarea id="differentials" name="Diferenciais" rows="4" placeholder="Experiência, método, atendimento, prazo, tecnologia, resultados..." required></textarea><span class="field-error" aria-live="polite"></span></div>
+              <div class="field full"><label for="competitors">Quais empresas ou páginas você admira / considera concorrentes?</label><textarea id="competitors" name="Referências de mercado" rows="3" placeholder="Pode colocar nomes, links ou apenas descrever o que gosta nelas."></textarea><span class="field-error" aria-live="polite"></span></div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-step" data-step="3">
+            <legend><span class="legend-number">03</span> Conteúdo que gera confiança</legend>
+            <p class="step-description">Agora vamos separar as provas que tiram dúvidas e dão segurança para o cliente avançar.</p>
+            <div class="field-grid two-col">
+              <div class="field full"><label for="services">Quais produtos ou serviços precisam aparecer? <i>*</i></label><textarea id="services" name="Produtos e serviços" rows="4" placeholder="Liste o que você vende e o que a pessoa recebe em cada opção." required></textarea><span class="field-error" aria-live="polite"></span></div>
+              <div class="field"><label for="proofs">Você tem números ou resultados para mostrar?</label><textarea id="proofs" name="Números e resultados" rows="3" placeholder="Ex.: +200 clientes, 10 anos de mercado..."></textarea><span class="field-error" aria-live="polite"></span></div>
+              <div class="field"><label for="testimonials">Tem depoimentos de clientes?</label><textarea id="testimonials" name="Depoimentos" rows="3" placeholder="Cole aqui ou conte quantos depoimentos você possui."></textarea><span class="field-error" aria-live="polite"></span></div>
+              <div class="field full"><label for="story">Existe uma história ou mensagem que a marca precisa contar?</label><textarea id="story" name="História da marca" rows="4" placeholder="A origem, o propósito ou a transformação que você entrega."></textarea><span class="field-error" aria-live="polite"></span></div>
+              <div class="field full"><label for="faq">Quais dúvidas o cliente costuma ter antes de comprar?</label><textarea id="faq" name="Dúvidas frequentes" rows="4" placeholder="Quanto mais dúvidas você antecipar, melhor a página pode responder."></textarea><span class="field-error" aria-live="polite"></span></div>
+              <div class="field full"><label for="assets">Você já tem materiais prontos?</label><input id="assets" name="Materiais disponíveis" type="text" placeholder="Logo, fotos, vídeos, manual da marca, textos, links de redes sociais..."/><span class="field-error" aria-live="polite"></span></div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-step" data-step="4">
+            <legend><span class="legend-number">04</span> A cara da sua marca</legend>
+            <p class="step-description">Não é só escolher uma cor bonita. É indicar como a marca quer ser percebida quando alguém chegar ao site.</p>
+            <div class="field-grid two-col">
+              <div class="field"><label for="visualStyle">Como você imagina o visual? <i>*</i></label><select id="visualStyle" name="Direção visual" required><option value="">Escolha uma direção</option><option>Moderno e minimalista</option><option>Elegante e sofisticado</option><option>Ousado e energético</option><option>Leve e acolhedor</option><option>Tech e futurista</option><option>Rústico e artesanal</option><option>Quero que vocês proponham</option></select><span class="field-error" aria-live="polite"></span></div>
+              <div class="field"><label for="brandColors">Existem cores obrigatórias ou proibidas?</label><input id="brandColors" name="Cores da marca" type="text" placeholder="Ex.: azul e branco; não usar amarelo"><span class="field-error" aria-live="polite"></span></div>
+              <div class="field full"><label for="visualReferences">Links de sites, perfis ou referências visuais</label><textarea id="visualReferences" name="Referências visuais" rows="4" placeholder="Cole links ou descreva o que gostaria de trazer para o projeto."></textarea><span class="field-error" aria-live="polite"></span></div>
+              <div class="field full"><label for="avoidVisual">Existe algo que você definitivamente não quer?</label><textarea id="avoidVisual" name="O que evitar" rows="3" placeholder="Cores, estilos, palavras, referências ou experiências que não combinam com você."></textarea><span class="field-error" aria-live="polite"></span></div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-step" data-step="5">
+            <legend><span class="legend-number">05</span> Próximos passos</legend>
+            <p class="step-description">Deixe um contato e as condições que já sabe. A próxima conversa começa com menos repetição e mais contexto.</p>
+            <div class="field-grid two-col">
+              <div class="field"><label for="contactName">Seu nome <i>*</i></label><input id="contactName" name="Nome do contato" type="text" placeholder="Como podemos te chamar?" required><span class="field-error" aria-live="polite"></span></div>
+              <div class="field"><label for="contactRole">Seu cargo / relação com a empresa</label><input id="contactRole" name="Cargo ou relação" type="text" placeholder="Ex.: fundador(a), marketing"><span class="field-error" aria-live="polite"></span></div>
+              <div class="field"><label for="email">Seu melhor e-mail <i>*</i></label><input id="email" name="E-mail" type="email" placeholder="voce@empresa.com" required><span class="field-error" aria-live="polite"></span></div>
+              <div class="field"><label for="phone">Seu telefone / WhatsApp <i>*</i></label><input id="phone" name="Telefone do cliente" type="tel" placeholder="(00) 00000-0000" required><span class="field-error" aria-live="polite"></span></div>
+              <div class="field"><label for="deadline">Existe um prazo ideal?</label><select id="deadline" name="Prazo desejado"><option value="">Selecione uma opção</option><option>O quanto antes</option><option>Nas próximas 2 semanas</option><option>Nos próximos 30 dias</option><option>Sem urgência definida</option></select><span class="field-error" aria-live="polite"></span></div>
+              <div class="field"><label for="budget">Já existe uma faixa de investimento?</label><select id="budget" name="Faixa de investimento"><option value="">Prefiro conversar primeiro</option><option>Até R$ 1.500</option><option>De R$ 1.500 a R$ 3.000</option><option>De R$ 3.000 a R$ 6.000</option><option>Acima de R$ 6.000</option></select><span class="field-error" aria-live="polite"></span></div>
+              <div class="field full"><label for="extra">Tem alguma informação importante que não perguntamos?</label><textarea id="extra" name="Informações adicionais" rows="4" placeholder="Esse espaço é todo seu."></textarea><span class="field-error" aria-live="polite"></span></div>
+            </div>
+          </fieldset>
+
+          <div class="form-feedback" id="formFeedback" role="alert" aria-live="polite"></div>
+          <div class="form-navigation">
+            <button type="button" class="button button-ghost" id="prevButton" hidden>Voltar</button>
+            <span class="nav-hint" id="navHint">Você está no começo. Vamos por partes.</span>
+            <button type="button" class="button button-dark" id="nextButton">Continuar</button>
+            <button type="button" class="button button-primary submit-button" id="reviewButton" hidden>Revisar briefing</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="review-section section-pad" id="reviewSection" hidden>
+      <div class="section-intro"><div><p class="eyebrow"><span></span> quase lá</p><h2>Confira antes<br>de <span>enviar.</span></h2></div><p>Leia com calma. Se quiser mudar qualquer coisa, volte para a etapa correspondente.</p></div>
+      <div class="review-shell">
+        <div class="review-header"><div><span class="red-index">BRF / revisão</span><h3>Seu briefing está pronto para a conversa.</h3></div><span class="review-badge">100% preenchido</span></div>
+        <div class="review-grid" id="reviewGrid"></div>
+        <div class="review-footer"><p>Ao clicar, suas respostas serão organizadas em uma mensagem no WhatsApp.</p><div class="review-actions"><button type="button" class="button button-ghost" id="editButton">Editar respostas</button><button type="button" class="button button-primary" id="sendButton">Enviar pelo WhatsApp</button></div></div>
+      </div>
+    </section>
+
+    <section class="final-cta section-pad">
+      <div class="final-cta-inner reveal"><div><p class="eyebrow"><span></span> seu site começa aqui</p><h2>Antes do layout,<br>vem a <span>conversa certa.</span></h2></div><a href="#briefing" class="button button-primary">Abrir meu briefing</a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-brand"><span class="footer-slash">/</span><strong>GAROTOS DE PROGRAMA</strong></div><p>site feito para o seu negócio</p><small>© 2026 Garotos de Programa</small></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

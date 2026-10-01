@@ -1,0 +1,12 @@
+{
+  "name": "garotos-briefing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Briefing seguro de landing page da Garotos de Programa",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
